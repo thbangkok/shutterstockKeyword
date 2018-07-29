@@ -3,7 +3,7 @@
 // @namespace
 // @version      1.0
 // @description  Extract the keyword from Shutter Stock Preview Page
-// @author       Satinka
+// @author       Naphong
 // @match        https://www.shutterstock.com/*image-photo*
 // @match        https://www.shutterstock.com/*image-vector*
 // @match		 https://www.shutterstock.com/*image-illustration*
@@ -32,5 +32,6 @@ $j(document).ready(function() {
            a+=$j(this).text()+', ';
        });
     });
-    $j('.product-page-keywords').html('<div class="row">' + a + '</div>');
+    $j('.product-page-keywords').css({ height: "100px" });
+    $j('.product-page-keywords').html('<div class="row" style="position: relative;height:150px;width:100%;padding: 10px 10px 10px 30px;">' + a + '</div>');
 });
