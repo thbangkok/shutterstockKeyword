@@ -7,6 +7,7 @@
 // @match        https://www.shutterstock.com/*image-photo*
 // @match        https://www.shutterstock.com/*image-vector*
 // @match		 https://www.shutterstock.com/*image-illustration*
+// @match        https://www.shutterstock.com/*video*
 // @copyright    2019, Naphong
 // @require      http://code.jquery.com/jquery-latest.min.js
 // @grant        none
