@@ -7,7 +7,7 @@
 // @match        https://www.shutterstock.com/*image-photo*
 // @match        https://www.shutterstock.com/*image-vector*
 // @match		 https://www.shutterstock.com/*image-illustration*
-// @match        https://www.shutterstock.com/*video*
+// @match		 https://www.shutterstock.com/*video*
 // @copyright    2019, Naphong
 // @require      http://code.jquery.com/jquery-latest.min.js
 // @grant        none
@@ -33,7 +33,6 @@ $j(document).ready(function() {
            a+=$j(this).text()+', ';
        });
     });
-    //console.log($j('C_a_c'));
     $j('[class="C_a_c"]').css({ height: "100px" });
     $j('[class="C_a_c"]').html('<div class="row" style="position: relative;height:150px;width:100%;padding: 10px 10px 10px 30px;">' + a + '</div>');
 });
