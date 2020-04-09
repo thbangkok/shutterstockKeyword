@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ShutterKeyword
 // @namespace
-// @version      2.1
+// @version      2.2
 // @description  Extract the keyword from Shutter Stock Preview Page
 // @author       Naphong
 // @match        https://www.shutterstock.com/*image-photo*
